@@ -1,0 +1,13 @@
+#Задание 1
+def email():
+    return 'me@gmail.com'
+print (email())
+
+#Задание 2
+def sum(price,tax):
+    return price + price/100*tax
+print('Введите сумму покупки')
+price1 = int(input())
+print('Введите процент налога')
+tax1 = int(input())
+print(sum(price1,tax1))
